@@ -1,12 +1,12 @@
 ### Site Settings ###
 title               : Ilyan Aza-lun
-description         : 
+description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
                       and never broke production.
-baseurl             : "/ilyanazalun.github.io"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : ilyanazalun/ilyanazalun     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : ilyanazalun.github.io/ilyanazalun.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : ilyanazalun.github.io/ilyanazalun.github.io
 
 
 ### Plugins ###
@@ -26,25 +26,25 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Iyang Agung Supriatna
   image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : ilyanazalun
-# dribbble          : ilyanazalun
+  behance           : ilyanazalun.github.io
+# dribbble          : ilyanazalun.github.io
   email             : username@domain.com
-  facebook          : ilyanazalun
-  github            : ilyanazalun
-# gitlab            : ilyanazalun
-# instagram         : ilyanazalun
-# kaggle            : ilyanazalun
-  linkedin          : ilyanazalun
-  medium            : ilyanazalun
-# soundcloud        : ilyanazalun
-# spotify           : ilyanazalun
+  facebook          : ilyanazalun.github.io
+  github            : ilyanazalun.github.io
+# gitlab            : ilyanazalun.github.io
+# instagram         : ilyanazalun.github.io
+# kaggle            : ilyanazalun.github.io
+  linkedin          : ilyanazalun.github.io
+  medium            : ilyanazalun.github.io
+# soundcloud        : ilyanazalun.github.io
+# spotify           : ilyanazalun.github.io
 # stackoverflow     : your_user_id
-# tumblr            : ilyanazalun.tumblr.com
-# twitch            : ilyanazalun
-  twitter           : ilyanazalun
-# vimeo             : ilyanazalun
+# tumblr            : ilyanazalun.github.io.tumblr.com
+# twitch            : ilyanazalun.github.io
+  twitter           : ilyanazalun.github.io
+# vimeo             : ilyanazalun.github.io
 # youtube           : your_channel_name
-# keybase           : ilyanazalun
+# keybase           : ilyanazalun.github.io
 
 
 ### Posts ###
