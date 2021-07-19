@@ -2,7 +2,7 @@
 name: Guide and Counseling Project
 tools: [PHP, MariaDB, JavaScript]
 image: https://www.sketchappsources.com/resources/source-image/project-neon-groove-music-ui.png
-description: create with :love: for student, theacher, and staff at SMAN 1 Cimalaka. to help services report activity behaviours student.
+description: create with love for student, theacher, and staff at SMAN 1 Cimalaka. to help services report activity behaviours student.
 #external_url: https://www.google.com
 ---
 
