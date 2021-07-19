@@ -1,7 +1,7 @@
-- name: Adobe Photoshop
-  percentage: 95
+- name: Drawing
+  percentage: 20
   color: info
 
-- name: Adobe Illustrator
-  percentage: 90
+- name: Music
+  percentage: 5
   color: success
