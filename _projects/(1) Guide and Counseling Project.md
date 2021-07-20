@@ -2,7 +2,7 @@
 name: Guide and Counseling Project
 tools: [PHP, MariaDB, JavaScript]
 image: https://ilyanazalun.github.io/assets/image/guide-counseling/Screenshot from 2021-07-19 13-37-21.png
-description: create with love for student, theacher, and staff at SMAN 1 Cimalaka. to help services report activity behaviours student.
+description: created with love for student, teacher, and staff at SMAN 1 Cimalaka. to help services report activity behaviours student.
 ---
 
 # The Guide and Counseling Project
