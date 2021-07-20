@@ -1,7 +1,7 @@
  - name: HTML5/CSS3
    percentage: 45
    color: warning
-   link: '{{ site.baseurl }}'
+   link: {{ site.baseurl }}
  - name: PHP
    percentage: 25
    color: primary
