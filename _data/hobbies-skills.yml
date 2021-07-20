@@ -1,7 +1,9 @@
 - name: Drawing
   percentage: 20
   color: info
+  link: #
 
 - name: Music
   percentage: 5
   color: success
+  link: #

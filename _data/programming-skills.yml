@@ -1,15 +1,20 @@
  - name: HTML5/CSS3
    percentage: 45
    color: warning
+   link: #
  - name: PHP
    percentage: 25
    color: primary
+   link: #
  - name: Java Script
    percentage: 15
    color: warning   
+   link: #
  - name: Python
    percentage: 5
    color: danger
+   link: #
  - name: Java
    percentage: 5
    color: danger
+   link: #
