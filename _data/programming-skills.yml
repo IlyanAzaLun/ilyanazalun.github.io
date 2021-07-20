@@ -1,11 +1,11 @@
  - name: HTML5/CSS3
    percentage: 45
    color: warning
-   link: {{ site.baseurl }}
+   link: '#'
  - name: PHP
    percentage: 25
    color: primary
-   link: '{{ site.baseurl }}'
+   link: 'https://ilyanazalun.github.io/assets/pdf/PHP Online Test - Tutorialspoint.pdf'
  - name: Java Script
    percentage: 15
    color: warning   
@@ -17,4 +17,4 @@
  - name: Java
    percentage: 5
    color: danger
-   link: #
+   link: 'https://ilyanazalun.github.io/assets/pdf/Java Online Test - Tutorialspoint.pdf'
