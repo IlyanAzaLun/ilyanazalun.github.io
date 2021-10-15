@@ -8,7 +8,7 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-As a graduate in <b>informatics<b> :bachelor:, the relationship between science and technology makes me not give up easily, especially in the programming field, which often makes me forget about time.
+As a graduate in <b>informatics</b>, the relationship between science and technology makes me not give up easily, especially in the programming field, which often makes me forget about time.
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
