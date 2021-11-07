@@ -1,9 +1,9 @@
-- name: Drawing [just practice]
-  percentage: ?
+- name: Drawing
+  percentage: just practice
   color: info
   link: #
 
-- name: Music [just play and practice]
-  percentage: ?
+- name: Music 
+  percentage: just play and practice
   color: success
   link: #

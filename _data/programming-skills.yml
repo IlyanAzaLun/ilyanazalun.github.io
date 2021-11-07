@@ -1,20 +1,20 @@
  - name: HTML5/CSS3
-   percentage: 45
+   percentage: beginner
    color: warning
    link: '#'
  - name: PHP
-   percentage: 25
+   percentage: beginner
    color: primary
    link: 'https://ilyanazalun.github.io/assets/pdf/PHP Online Test - Tutorialspoint.pdf'
  - name: Java Script
-   percentage: 15
+   percentage: beginner
    color: warning   
    link: #
  - name: Python
-   percentage: 5
+   percentage: beginner
    color: danger
    link: #
  - name: Java
-   percentage: 5
+   percentage: beginner
    color: danger
    link: 'https://ilyanazalun.github.io/assets/pdf/Java Online Test - Tutorialspoint.pdf'
