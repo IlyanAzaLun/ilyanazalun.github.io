@@ -15,22 +15,32 @@ kondisi untuk category ``LIQUID`` field akan ditambahkan
 
 ### History item
 pada fitur ini di perlihatkan informasi riwayat pemasukan dan pengeluaran barang.
+![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-16_49_38.png)
 
 
 ## User management
 fitur manajemen pengguna, dibagi menjadi 3 bagian yaitu customer(pelanggan) dan supplier(pemasok), dan user(pengguna). dari user (pengguna) yang dapat mengakses aplikasi dibagi menjadi beberapa level, berdasarkan izin untuk mengakes halaman.
-
-## Role management
-menampilkan informasi yang terseida, peran pengguna di tampilkan berdasarkan halaman yand dapat dakses tiap peran user (pengguna)
-
-## Menu management
-manajemen menu, untuk siapasaja menu tersebut dapat diakses.
+![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-16_49_38.png)
 
 ## List User
 menamplkan user (pengguna) yang dapat mengakses aplikasi.
+![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-16_58_49.png)
+![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-17_03_15.png)
+
+## Role management
+menampilkan informasi yang terseida, peran pengguna di tampilkan berdasarkan halaman yand dapat dakses tiap peran user (pengguna)
+![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-17_02_29.png)
+
+## Menu management
+manajemen menu, untuk siapasaja menu tersebut dapat diakses.
+![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.11.14-11_15_44.png)
+
 
 ## Invoice
 invoice dibagi menjadi 2 halaman yaitu, halaman invoice pembelian, dan invoice penjualan.
+![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-17_07_15.png)
+![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-17_08_03.png)
+![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-17_08_33.png)
 
 ### Invoice purchase
 invoice pembelian digunakan untuk mencatat barang yang telah dipesan. persediaan barang (stock item) akan berambah, jika invoice ditambahkan.
@@ -40,5 +50,3 @@ invoice penjualan digunakan untuk mencatat barang yang akan dijual, diambil dari
 
 ### Return
 pengembalian / batal transaksi, persediaan akan kembali pada sebelum invoice di buat.
-
-![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.11.14-11_15_44.png)
