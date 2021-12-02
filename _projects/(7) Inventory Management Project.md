@@ -7,13 +7,13 @@ external_url: #
 ---
 
 ## Item management
+fitur manajemen barang, input brang yang belum tersedia. ubah data, menampilkan data barang.
+![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-12_26_21.png)
+kondisi untuk category ``LIQUID`` field akan ditambahkan
+![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-12_27_46.png)
 
-menampilkan informasi item yang diinput.
-
-![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.11.14-11_15_14.png)
 
 ## Role management
-
 menampilkan informasi menu yang terseida.
 
 ![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.11.14-11_15_44.png)
