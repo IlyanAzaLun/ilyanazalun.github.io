@@ -7,13 +7,13 @@ external_url: #
 ---
 
 ## Manajemen barang
-Halaman ini hanya dapat diakses oleh:<code>ADMIN</code>
+Halaman ini hanya dapat diakses oleh: <code>ADMIN</code>
 fitur manajemen barang, input brang yang belum tersedia. ubah data, menampilkan data barang.
 ![preview]({{'/assets/image'|relative_url}}/inventory-management/1.Manajemen barang.png)
 pilih kategori untuk barang. kondisi untuk category ``LIQUID`` field akan ditambahkan, yaitu kebutuhan-kebutuhan untuk informasi liquid,
 lengkapi form yang ada.
 ### Tambah persediaan barang
-Halaman ini hanya dapat diakses oleh:<code>ADMIN</code>
+Halaman ini hanya dapat diakses oleh: <code>ADMIN</code>
 tambah persediaan barang, digunakan setelah input barang, pilih terlebih dahulu barang yang dilakukan persediaan.
 ![preview]({{'/assets/image'|relative_url}}/inventory-management/2.Manajemen persediaan barang.png)
 variabel yang diubah yaitu hanya jumlah barang.
@@ -21,7 +21,7 @@ variabel yang diubah yaitu hanya jumlah barang.
 
 
 ## Manajemen pelanggan
-Halaman ini hanya dapat diakses oleh:<code>ADMIN</code>
+Halaman ini hanya dapat diakses oleh: <code>ADMIN</code>
 tambah pelanggan, lengkapi form field isian pada form tambah data pelanggan, kemudian simpan untuk menyimpan data pelanggan. data yang tersimpan akan ditampilkan pada, daftar pelanggan.  
 ![preview]({{'/assets/image'|relative_url}}/inventory-management/1.Manajemen pelanggan.png)
 data yang telah disimpan, dapat diubah kembali sesuai informasi yang dibutuhkan.
