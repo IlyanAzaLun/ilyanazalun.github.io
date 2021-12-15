@@ -1,52 +1,29 @@
 ---
 name: Inventory Management
 tools: [Codeigniter, PHP, MariaDB, JavaScript]
-image: https://ilyanazalun.github.io/assets/image/management-inventory/screenshot-management.local-2021.11.14-11_14_05.png
+image: https://ilyanazalun.github.io/assets/image/inventory-management/Dashboard.png
 description: Membangun sebuah website inventory online berbasis web.
 external_url: #
 ---
 
-## Item management
+## Manajemen barang
+Halaman ini hanya dapat diakses oleh:<code>ADMIN</code>
 fitur manajemen barang, input brang yang belum tersedia. ubah data, menampilkan data barang.
-![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-12_26_21.png)
-kondisi untuk category ``LIQUID`` field akan ditambahkan
-![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-12_27_46.png)
-``controller`` yang digunakan pada fitur ini yaitu ``Item``
-
-### History item
-pada fitur ini di perlihatkan informasi riwayat pemasukan dan pengeluaran barang.
-![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-16_49_38.png)
-
-
-## User management
-fitur manajemen pengguna, dibagi menjadi 3 bagian yaitu customer(pelanggan) dan supplier(pemasok), dan user(pengguna). dari user (pengguna) yang dapat mengakses aplikasi dibagi menjadi beberapa level, berdasarkan izin untuk mengakes halaman.
-![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-16_49_38.png)
-
-## List User
-menamplkan user (pengguna) yang dapat mengakses aplikasi.
-![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-16_58_49.png)
-![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-17_03_15.png)
-
-## Role management
-menampilkan informasi yang terseida, peran pengguna di tampilkan berdasarkan halaman yand dapat dakses tiap peran user (pengguna)
-![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-17_02_29.png)
-
-## Menu management
-manajemen menu, untuk siapasaja menu tersebut dapat diakses.
-![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.11.14-11_15_44.png)
+![preview]({{'/assets/image'|relative_url}}'/inventory-management/1.Manajemen barang.png')
+pilih kategori untuk barang. kondisi untuk category ``LIQUID`` field akan ditambahkan, yaitu kebutuhan-kebutuhan untuk informasi liquid,
+lengkapi form yang ada.
+### Tambah persediaan barang
+Halaman ini hanya dapat diakses oleh:<code>ADMIN</code>
+tambah persediaan barang, digunakan setelah input barang, pilih terlebih dahulu barang yang dilakukan persediaan.
+![preview]({{'/assets/image'|relative_url}}'/inventory-management/2.Manajemen persediaan barang.png')
+variabel yang diubah yaitu hanya jumlah barang.
+![preview]({{'/assets/image'|relative_url}}'/inventory-management/3.Manajemen persediaan barang (1).png')
 
 
-## Invoice
-invoice dibagi menjadi 2 halaman yaitu, halaman invoice pembelian, dan invoice penjualan.
-![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-17_07_15.png)
-![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-17_08_03.png)
-![preview]({{'/assets/image'|relative_url}}/management-inventory/screenshot-management.local-2021.12.02-17_08_33.png)
+## Manajemen pelanggan
+Halaman ini hanya dapat diakses oleh:<code>ADMIN</code>
+tambah pelanggan, lengkapi form field isian pada form tambah data pelanggan, kemudian simpan untuk menyimpan data pelanggan. data yang tersimpan akan ditampilkan pada, daftar pelanggan.  
+![preview]({{'/assets/image'|relative_url}}'/inventory-management/1.Manajemen pelanggan.png')
+data yang telah disimpan, dapat diubah kembali sesuai informasi yang dibutuhkan.
 
-### Invoice purchase
-invoice pembelian digunakan untuk mencatat barang yang telah dipesan. persediaan barang (stock item) akan berambah, jika invoice ditambahkan.
-
-### Invoice sale
-invoice penjualan digunakan untuk mencatat barang yang akan dijual, diambil dari data master barang, (stok item) akan berkurang, jika invoice ditambahkan
-
-### Return
-pengembalian / batal transaksi, persediaan akan kembali pada sebelum invoice di buat.
+## Gudang: buat antrian pesanan barang
