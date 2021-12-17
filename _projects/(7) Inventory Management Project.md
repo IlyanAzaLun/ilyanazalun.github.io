@@ -38,8 +38,14 @@ informasi pelanggan diharuskan diinput terlebih dahulu di halaman "MANAJEMEN PEL
 <li>Informasi barang:</li>
 informasi barang juga diharuskan diinput terlebih dahulu di halaman "MANAJEMEN BARANG", dan pastikan stok barang sudah di ubah di halaman "TAMBAH PERSEDIAAN BARANG" sehingga dapat digunakan di halaman ini.
 ![preview]({{'/assets/image'|relative_url}}/inventory-management/5.Buat antrian pesanan barang.png)
-Data yang sudah di simpan akan di tampilkan di bagian Daftar pesanan keluar, di halaman ini.
-fitur yang di sediakan yaitu, lihat informasi pesanan juga akan ditampilkan di halaman "SHIPPING", dan batal pesanan jika ada kesalahan pada pemesanan.
+Data yang sudah di simpan akan di tampilkan di bagian ``Daftar pesanan keluar``, di bagian ``Daftar pesanan keluar``.
+fitur yang di sediakan yaitu:
+<li>Lihat informasi pesanan juga akan ditampilkan di halaman "SHIPPING", dan batal pesanan jika ada kesalahan pada pemesanan.</li>
+<li>Batal pesanan.</li>
+<li>Ubah status pesanan, yang seharusnya di gunakan oleh pihak pengiriman.</li>
+pada bagian ``Daftar barang kembali, dari pengiriman``, yaitu informasi tentang barang kurang atau barang lebih.
+pihak gudang diharuskan memeriksa jumlah barang yang di tampilkan pada layar ``informasi pengembalian barang``. setelah informasi dan barang di terima pihak gudang dapat melakukan ``konfirmasi pengembalian barang``.
 
-## Gudang: detail informasi pemesanan barang
+
+## Gudang: detail informasi pemesanan dan pengembalian barang
 ![preview]({{'/assets/image'|relative_url}}/inventory-management/5.Buat antrian pesanan barang.png)
