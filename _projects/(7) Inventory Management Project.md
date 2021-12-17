@@ -24,6 +24,9 @@ variabel yang diubah yaitu hanya jumlah barang.
 Halaman ini hanya dapat diakses oleh: <code>ADMIN</code>
 tambah pelanggan, lengkapi form field isian pada form tambah data pelanggan, kemudian simpan untuk menyimpan data pelanggan. data yang tersimpan akan ditampilkan pada, daftar pelanggan.  
 ![preview]({{'/assets/image'|relative_url}}/inventory-management/1.Manajemen pelanggan.png)
-data yang telah disimpan, dapat diubah kembali sesuai informasi yang dibutuhkan.
+data yang telah disimpan, dapat diubah kembali sesuai informasi yang dibutuhkan. Pelanggan yang di nonaktifkan tidak akan digunakan dalam aplikasi.
 
-## Gudang: buat antrian pesanan barang
+
+<h2 id="notifikasi" style="color:#ed143d">Notifikasi</h2>
+Semua halaman, dan semua intruksi akan menampilkan notifikasi di pojok kanan atas
+![preview]({{'/assets/image'|relative_url}}/inventory-management/4.Notifikasi.png)
