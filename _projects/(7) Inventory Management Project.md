@@ -46,6 +46,25 @@ fitur yang di sediakan yaitu:
 pada bagian ``Daftar barang kembali, dari pengiriman``, yaitu informasi tentang barang kurang atau barang lebih.
 pihak gudang diharuskan memeriksa jumlah barang yang di tampilkan pada layar ``informasi pengembalian barang``. setelah informasi dan barang di terima pihak gudang dapat melakukan ``konfirmasi pengembalian barang``.
 
-
 ## Gudang: detail informasi pemesanan dan pengembalian barang
-![preview]({{'/assets/image'|relative_url}}/inventory-management/5.Buat antrian pesanan barang.png)
+tampilan untuk detail informasi pemaesanan dan pengembalian barang.
+![preview]({{'/assets/image'|relative_url}}/inventory-management/5.Buat antrian pesanan barang (1).png)
+
+## Pengemasan dan Pengiriman
+pada halaman daftar antrian pesanan, terdapat bagian
+<li>Daftar pemesanan keluar, bagian ini informasi pemesanan yang dibuat oleh gudang dan</li>
+bila informasi sudah sesuai dengan barang yang di terima dari pihak gudang, bagian pengemasan dapat melakukan konformasi.
+<li>Daftar barang kembali, dari pengemasan dan pengiriman, dibuat oleh bagian pengemasan</li>
+daftar laporan barang kembali, merupakan perubahan kesalahan atau perubahan pada input barang.
+![preview]({{'/assets/image'|relative_url}}/inventory-management/5.Buat antrian pesanan barang (1).png)
+
+## Detail informasi pemesanan
+tampilan untuk detail informasi pemaesanan barang.
+![preview]({{'/assets/image'|relative_url}}/inventory-management/6.Daftar antrian pesanan barang dari gudang (1).png)
+bila informasi tidak sesuai atau ada perubahan jumlah barang, maka dilakukan perubahan pemesanan., namun bila barang yang datang sudah sesuai maka pihak pengemasan dapa melakukan konfirmasi.
+
+## Ubah informasi pemesanan
+perubahan informasi pemesanan barang dilakukan oleh pihak pengemasan. dapat disesuaikan bedasarkan invoice dari marketing atau yang lainnya.
+![preview]({{'/assets/image'|relative_url}}/inventory-management/7.Buat pengembalian barang ke gudang.png)
+bila barang dari pemesanan kurang, penulisan yang benar yaitu di dahului  tanda (-) minus/negatif, yang artinya pihak pengemasan memerlukan barang lagi, namun <br>
+bila barang dari pemesanan jumlahnya lebih dari permintaan, penulisan yang benar yaitu tanpa tanda, yang artinya pihak pengemasan mengembalikan barang kepihak gudang.
