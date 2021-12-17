@@ -28,5 +28,18 @@ data yang telah disimpan, dapat diubah kembali sesuai informasi yang dibutuhkan.
 
 
 <h2 id="notifikasi" style="color:#ed143d">Notifikasi</h2>
-Semua halaman, dan semua intruksi akan menampilkan notifikasi di pojok kanan atas
+Semua halaman, dan semua intruksi akan menampilkan notifikasi di pojok kanan atas.
 ![preview]({{'/assets/image'|relative_url}}/inventory-management/4.Notifikasi.png)
+
+## Gudang: buat antrian pemesanan barang
+untuk membuat antrian barang. pengguna diharuskan mengisi form informasi terlebih dahulu, yaitu:
+<li>Informasi pelanggan:</li>
+informasi pelanggan diharuskan diinput terlebih dahulu di halaman "MANAJEMEN PELANGGAN", sehingga dapat digunakan di halaman ini.
+<li>Informasi barang:</li>
+informasi barang juga diharuskan diinput terlebih dahulu di halaman "MANAJEMEN BARANG", dan pastikan stok barang sudah di ubah di halaman "TAMBAH PERSEDIAAN BARANG" sehingga dapat digunakan di halaman ini.
+![preview]({{'/assets/image'|relative_url}}/inventory-management/5.Buat antrian pesanan barang.png)
+Data yang sudah di simpan akan di tampilkan di bagian Daftar pesanan keluar, di halaman ini.
+fitur yang di sediakan yaitu, lihat informasi pesanan juga akan ditampilkan di halaman "SHIPPING", dan batal pesanan jika ada kesalahan pada pemesanan.
+
+## Gudang: detail informasi pemesanan barang
+![preview]({{'/assets/image'|relative_url}}/inventory-management/5.Buat antrian pesanan barang.png)
