@@ -16,9 +16,41 @@ the `ajax: 'url'` :
 let tabel = $('#example').DataTabel({
 	serverSide: true,
 	ajax: {
+        // if can using API to get this data.?
 		'url' : "path/file/func",
         'type': "POST"
-	}
+	},
+    // Name Column
+    columns: [{
+      data: "id"
+    },{
+      data: "item_code",
+    },{
+      data: "item_name",
+    },{
+      data: "category"
+    },{
+      data: "brand"
+    },{
+      data: "brands"
+    },{
+      data: 'item_quantity',
+    },{
+      data: 'item_broken',
+    },{
+      data: 'weight',
+    },{
+      data: 'item_unit',
+    },{
+      data: "item_capital_price",
+    },{
+      data: "item_selling_price",
+    },{
+      data: "note"
+    },{
+      data: "id",
+    },
+  ]
 })
 ```
 on file function
@@ -38,12 +70,6 @@ function func(){
     $columnSortOrder = $postData['order'][0]['dir']; // asc or desc
     $searchValue = $postData['search']['value']; // Search value
 
-    ## Search 
-    $searchQuery = "";
-    if ($searchValue != '') {
-        $searchQuery = " (item_name like '%" . $searchValue . "%' or item_code like '%" . $searchValue . "%' ) ";
-    }
-
     ## Total number of records without filtering
     $this->db->select('count(*) as allcount');
     $records = $this->db->get('items')->result();
@@ -51,7 +77,8 @@ function func(){
 
     ## Total number of record with filtering
     $this->db->select('count(*) as allcount');
-    if ($searchQuery != '') {
+    if ($searchValue != '') {
+        // EXAMPLE //
         $this->db->like('item_name', $searchValue, 'both');
         $this->db->or_like('item_code', $searchValue, 'both');
         $this->db->or_like('category', $searchValue, 'both');
@@ -61,7 +88,8 @@ function func(){
 
     ## Fetch records
     $this->db->select('*');
-    if ($searchQuery != '') {
+    if ($searchValue != '') {
+        // EXAMPLE //
         $this->db->like('item_name', $searchValue, 'both');
         $this->db->or_like('item_code', $searchValue, 'both');
         $this->db->or_like('category', $searchValue, 'both');
@@ -75,6 +103,7 @@ function func(){
     foreach ($records as $record) {
 
         $data[] = array(
+            // EXAMPLE // Name Column
             "id" => $record->id,
             "item_code" => $record->item_code,
             "item_name" => $record->item_name,
@@ -98,6 +127,9 @@ function func(){
     );
     $this->output->set_content_type('application/json')->set_output(json_encode($response));
 }
+```
+```
+
 ```
 add event on datatabels draw,
 ```
