@@ -3,7 +3,7 @@
    color: warning
    link: '#'
  - name: PHP
-   percentage: beginner
+   percentage: beginner, based
    color: primary
    link: 'https://ilyanazalun.github.io/assets/pdf/PHP Online Test - Tutorialspoint.pdf'
  - name: Java Script
