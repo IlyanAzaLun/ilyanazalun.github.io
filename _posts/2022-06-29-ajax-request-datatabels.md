@@ -12,6 +12,7 @@ Processing in datatabels is enabled thought use of the `serverSide: true` option
 the `ajax: 'url'` :
 
 ## Example
+### View
 ```
 let tabel = $('#example').DataTabel({
 	serverSide: true,
@@ -55,6 +56,7 @@ let tabel = $('#example').DataTabel({
 ```
 on file function
 
+### Controller
 ```
 function func(){
 	$response = array();
