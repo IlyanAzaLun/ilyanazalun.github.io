@@ -13,6 +13,32 @@ the `ajax: 'url'` :
 
 ## Example
 ### View
+#### HTML in view
+column in HTML must have on JQ request
+```
+<table id="example2" class="table table-sm table-bordered table-hover" style="font-size: 12px;">
+  <thead>
+    <tr>
+      <th> label </th>
+      <th> label </th>
+      <th> label </th>
+      <th> label </th>
+      <th> label </th>
+      <th> label </th>
+      <th> label </th>
+      <th> label </th>
+      <th> label </th>
+      <th> label </th>
+      <th> label </th>
+      <th> label </th>
+      <th> label </th>
+      <th> OPTION </th>
+    </tr>
+  </thead>
+</table>
+```
+#### REQUEST JQ in view
+column on Request JQ must have on request controller
 ```
 let tabel = $('#example').DataTabel({
 	serverSide: true,
@@ -48,15 +74,29 @@ let tabel = $('#example').DataTabel({
       data: "item_selling_price",
     },{
       data: "note"
-    },{
+    },
+
+    // OPTION, U can customise return, use render function.. 
+    {
       data: "id",
+      orderable: false,
+      render: function(data, type, row) {
+        return `
+            <div class="btn-group d-flex justify-content-center">
+            <a target="_blank" href="<?= url('items') ?>/edit?id=${row['id']}" class="btn btn-xs btn-default" data-toggle="tooltip" data-placement="top" title="Edit items"><i class="fa fa-tw fa-edit text-primary"></i></a>
+            <a target="_blank" href="<?= url('items') ?>/info?id=${row['item_code']}" class="btn btn-xs btn-default" data-toggle="tooltip" data-placement="top" title="History items"><i class="fa fa-tw fa-history text-primary"></i></a>
+            <a target="_blank" href="<?= url('items') ?>/info_transaction?id=${row['item_code']}" class="btn btn-xs btn-default" data-toggle="tooltip" data-placement="top" title="History transaction items"><i class="fa fa-tw fa-layer-group text-primary"></i></a>
+            <?php if(hasPermissions('list_fifo')):?>
+            <a target="_blank" href="<?= url('items') ?>/info_fifo?id=${row['item_code']}" class="btn btn-xs btn-default" data-toggle="tooltip" data-placement="top" title="Fifo items"><i class="fa fa-tw fa-book text-primary"></i></a>
+            <?php endif;?>
+            </div>`;
+      }
     },
   ]
 })
 ```
-on file function
-
-### Controller
+### Controller Function Request
+`$data[]` must have in column on selected on request table on database
 ```
 function func(){
 	$response = array();
@@ -130,9 +170,7 @@ function func(){
     $this->output->set_content_type('application/json')->set_output(json_encode($response));
 }
 ```
-```
 
-```
 add event on datatabels draw,
 ```
 tabel.on('draw', function(){
