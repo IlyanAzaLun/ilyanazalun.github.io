@@ -28,7 +28,7 @@ pada halaman ubah data pelanggan ubah sesuai informasi yang benar, lalu simpan<b
 
 ## Tambah Data Alamat Berdasarkan Pelanggan yang Sama
 ![preview]({{'/assets/image'|relative_url}}/bandung-ejuice-distribution/main-customer.png)
-pada halaman pelanggan terdapat tombol ubah data [icon pencil], untuk merubah informasi pelanggan<br>
+pada halaman pelanggan, dapat mencari terlebih dahulu data yang akan di tambah data alamat, terdapat tombol ubah data [merah] [icon pencil], untuk menambah informasi alamat pelanggan<br>
 
 ![preview]({{'/assets/image'|relative_url}}/bandung-ejuice-distribution/form-add-address-same-customer.png)
 pada halaman ubah data pelanggan terdapat tombol tambah data [icon plus], untuk menambah informasi alamat pelanggan<br>
@@ -41,6 +41,18 @@ lengkapi field, untuk memenuhi kebutuhan informasi alamat pelanggan, lalu simpan
 ## Cetak Alamat Pelanggan
 ![preview]({{'/assets/image'|relative_url}}/bandung-ejuice-distribution/main-warehouse-address.png)
 cari alamat pelanggan / pemasok / buzzer, klik tobol informasi [icon informasi (i)]<br>
+
+![preview]({{'/assets/image'|relative_url}}/bandung-ejuice-distribution/form-print-address.png)
+lengkapi kebutuhan informasi yang wajib di isi [hitam], untuk mengisi alamat sementara(sifat tidak menyimpan pada saat halaman di muat ulang) [merah], untuk merubah alamat berdasarkan customer
+dapat dilakukan pada <b>UBAH INFORMASI PELANGGAN</b> atau dapat menekan tombol edit [icon pencil]<br>
+
+jika data sudah sesuai dengan alamat yang sebenarnya, pengguna dapat mencetak alamat [icon print]<br>
+
+
+## Cetak Alamat Pelanggan, dengan Alamat Pelanggan Yang Berbeda
+![preview]({{'/assets/image'|relative_url}}/bandung-ejuice-distribution/main-warehouse-address-multi-address.png)
+cari alamat pelanggan / pemasok / buzzer, tombol detail all [merah][tombol hijau] untuk melihat informasi, klik tobol informasi [icon informasi (i)]<br>
+
 
 ![preview]({{'/assets/image'|relative_url}}/bandung-ejuice-distribution/form-print-address.png)
 lengkapi kebutuhan informasi yang wajib di isi [hitam], untuk mengisi alamat sementara(sifat tidak menyimpan pada saat halaman di muat ulang) [merah], untuk merubah alamat berdasarkan customer
