@@ -35,3 +35,15 @@ pada halaman ubah data pelanggan terdapat tombol tambah data [icon plus], untuk 
 
 ![preview]({{'/assets/image'|relative_url}}/bandung-ejuice-distribution/form-address.png)
 lengkapi field, untuk memenuhi kebutuhan informasi alamat pelanggan, lalu simpan<br>
+
+
+# Halaman Utama Pengiriman
+## Cetak Alamat Pelanggan
+![preview]({{'/assets/image'|relative_url}}/bandung-ejuice-distribution/main-warehouse-address.png)
+cari alamat pelanggan / pemasok / buzzer, klik tobol informasi [icon informasi (i)]<br>
+
+![preview]({{'/assets/image'|relative_url}}/bandung-ejuice-distribution/form-print-address.png)
+lengkapi kebutuhan informasi yang wajib di isi [hitam], untuk mengisi alamat sementara(sifat tidak menyimpan pada saat halaman di muat ulang) [merah], untuk merubah alamat berdasarkan customer
+dapat dilakukan pada <b>UBAH INFORMASI PELANGGAN</b> atau dapat menekan tombol edit [icon pencil]<br>
+
+jika data sudah sesuai dengan alamat yang sebenarnya, pengguna dapat mencetak alamat [icon print]<br>
