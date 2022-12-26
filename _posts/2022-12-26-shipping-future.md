@@ -1,6 +1,6 @@
 ---
 title: Shipping Future
-tags: [Information]
+tags: [Documentation, Bandung Ejuice Distribution, Shipping]
 style: 
 color: 
 description: Documentation on Bandung Ejuice Distribution.
@@ -11,7 +11,7 @@ Source: [Bandung Ejuice Distribution]
 # Halaman Utama Pelanggan
 ## Tambah Pelanggan dan Alamat Pelanggan 
 ![preview]({{'/assets/image'|relative_url}}/bandung-ejuice-distribution/main-customer.png)
-pada halaman pelanggan terdapat tombol tambah data, untuk menambah informasi pelanggan<br>
+pada halaman pelanggan terdapat tombol tambah data [hitam], untuk menambah informasi pelanggan<br>
 
 ![preview]({{'/assets/image'|relative_url}}/bandung-ejuice-distribution/form-customer.png)
 lengkapi field, untuk memenuhi kebutuhan informasi pelanggan, lalu simpan<br>
@@ -21,7 +21,7 @@ lengkapi field, untuk memenuhi kebutuhan informasi alamat pelanggan, lalu simpan
 
 ## Ubah Informasi Pelanggan
 ![preview]({{'/assets/image'|relative_url}}/bandung-ejuice-distribution/main-customer.png)
-pada halaman pelanggan terdapat tombol ubah data [icon pencil], untuk merubah informasi pelanggan<br>
+pada halaman pelanggan, dapat mencari terlebih dahulu data yang akan diubah, terdapat tombol ubah data [merah] [icon pencil], untuk merubah informasi pelanggan<br>
 
 ![preview]({{'/assets/image'|relative_url}}/bandung-ejuice-distribution/form-edit-address.png)
 pada halaman ubah data pelanggan ubah sesuai informasi yang benar, lalu simpan<br>
