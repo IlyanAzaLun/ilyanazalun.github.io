@@ -4,8 +4,7 @@
     {% for post in site.data.instagram %}
     <div class="wow animated fadeIn" data-wow-delay=".15s">
         <a href="{{ post.link }}" class="project card text-themed" target="_blank">
-        <img class="card-img-top" src="{{ post.image_url }}" alt="{{ post.caption | escape }}" />
-        <div class="card-body">
+<img class="card-img-top" src="{{ post.image_url }}" alt="{{ post.caption | escape }}" style="width: 300px; height: 300px; object-fit: cover;" />        <div class="card-body">
             <p class="card-text">{{ post.caption }}</p>
         </div>
         </a>
