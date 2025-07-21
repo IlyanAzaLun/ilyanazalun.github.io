@@ -3,7 +3,7 @@ import json
 
 USERNAME = "ilyanazalun"
 # IG_USERNAME = "ilyanazalun"
-# IG_PASSWORD = "$Mak65yousmil65"
+# IG_PASSWORD = "secreate"
 
 L = instaloader.Instaloader()
 # L.login(IG_USERNAME, IG_PASSWORD)
