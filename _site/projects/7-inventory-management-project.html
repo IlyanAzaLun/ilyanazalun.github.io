@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Inventory Management">
+  <meta property="og:description" content="Membangun sebuah website inventory online berbasis web.">
+
+  <title>Inventory Management</title>
+  <meta name="description" content="Membangun sebuah website inventory online berbasis web.">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/icon.png">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Ilyan Aza-lun</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/photograph/">Photograph</a>
+
+      <a class="nav-item nav-link active" href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 post">
+  <h2 id="manajemen-barang">Manajemen barang</h2>
+<p>Halaman ini hanya dapat diakses oleh: <code>ADMIN</code>
+fitur manajemen barang, input brang yang belum tersedia. ubah data, menampilkan data barang.
+<img src="/assets/image/inventory-management/1.Manajemen barang.png" alt="preview" />
+pilih kategori untuk barang. kondisi untuk category <code class="language-plaintext highlighter-rouge">LIQUID</code> field akan ditambahkan, yaitu kebutuhan-kebutuhan untuk informasi liquid,
+lengkapi form yang ada.</p>
+<h3 id="tambah-persediaan-barang">Tambah persediaan barang</h3>
+<p>Halaman ini hanya dapat diakses oleh: <code>ADMIN</code>
+tambah persediaan barang, digunakan setelah input barang, pilih terlebih dahulu barang yang dilakukan persediaan.
+<img src="/assets/image/inventory-management/2.Manajemen persediaan barang.png" alt="preview" />
+variabel yang diubah yaitu hanya jumlah barang.
+<img src="/assets/image/inventory-management/3.Manajemen persediaan barang (1).png" alt="preview" /></p>
+
+<h2 id="manajemen-pelanggan">Manajemen pelanggan</h2>
+<p>Halaman ini hanya dapat diakses oleh: <code>ADMIN</code>
+tambah pelanggan, lengkapi form field isian pada form tambah data pelanggan, kemudian simpan untuk menyimpan data pelanggan. data yang tersimpan akan ditampilkan pada, daftar pelanggan.<br />
+<img src="/assets/image/inventory-management/1.Manajemen pelanggan.png" alt="preview" />
+data yang telah disimpan, dapat diubah kembali sesuai informasi yang dibutuhkan. Pelanggan yang di nonaktifkan tidak akan digunakan dalam aplikasi.</p>
+
+<h2 id="notifikasi" style="color:#ed143d">Notifikasi</h2>
+<p>Semua halaman, dan semua intruksi akan menampilkan notifikasi di pojok kanan atas.
+<img src="/assets/image/inventory-management/4.Notifikasi.png" alt="preview" /></p>
+
+<h2 id="gudang-buat-antrian-pemesanan-barang">Gudang: buat antrian pemesanan barang</h2>
+<p>untuk membuat antrian barang. pengguna diharuskan mengisi form informasi terlebih dahulu, yaitu:</p>
+<li>Informasi pelanggan:</li>
+<p>informasi pelanggan diharuskan diinput terlebih dahulu di halaman “MANAJEMEN PELANGGAN”, sehingga dapat digunakan di halaman ini.</p>
+<li>Informasi barang:</li>
+<p>informasi barang juga diharuskan diinput terlebih dahulu di halaman “MANAJEMEN BARANG”, dan pastikan stok barang sudah di ubah di halaman “TAMBAH PERSEDIAAN BARANG” sehingga dapat digunakan di halaman ini.
+<img src="/assets/image/inventory-management/5.Buat antrian pesanan barang.png" alt="preview" />
+Data yang sudah di simpan akan di tampilkan di bagian <code class="language-plaintext highlighter-rouge">Daftar pesanan keluar</code>, di bagian <code class="language-plaintext highlighter-rouge">Daftar pesanan keluar</code>.
+fitur yang di sediakan yaitu:</p>
+<li>Lihat informasi pesanan juga akan ditampilkan di halaman "SHIPPING", dan batal pesanan jika ada kesalahan pada pemesanan.</li>
+<li>Batal pesanan.</li>
+<li>Ubah status pesanan, yang seharusnya di gunakan oleh pihak pengiriman.</li>
+<p>pada bagian <code class="language-plaintext highlighter-rouge">Daftar barang kembali, dari pengiriman</code>, yaitu informasi tentang barang kurang atau barang lebih.
+pihak gudang diharuskan memeriksa jumlah barang yang di tampilkan pada layar <code class="language-plaintext highlighter-rouge">informasi pengembalian barang</code>. setelah informasi dan barang di terima pihak gudang dapat melakukan <code class="language-plaintext highlighter-rouge">konfirmasi pengembalian barang</code>.</p>
+
+<h2 id="gudang-detail-informasi-pemesanan-dan-pengembalian-barang">Gudang: detail informasi pemesanan dan pengembalian barang</h2>
+<p>tampilan untuk detail informasi pemaesanan dan pengembalian barang.
+<img src="/assets/image/inventory-management/5.Buat antrian pesanan barang (1).png" alt="preview" /></p>
+
+<h2 id="pengemasan-dan-pengiriman">Pengemasan dan Pengiriman</h2>
+<p>pada halaman daftar antrian pesanan, terdapat bagian</p>
+<li>Daftar pemesanan keluar, bagian ini informasi pemesanan yang dibuat oleh gudang dan</li>
+<p>bila informasi sudah sesuai dengan barang yang di terima dari pihak gudang, bagian pengemasan dapat melakukan konformasi.</p>
+<li>Daftar barang kembali, dari pengemasan dan pengiriman, dibuat oleh bagian pengemasan</li>
+<p>daftar laporan barang kembali, merupakan perubahan kesalahan atau perubahan pada input barang.
+<img src="/assets/image/inventory-management/5.Buat antrian pesanan barang (1).png" alt="preview" /></p>
+
+<h2 id="detail-informasi-pemesanan">Detail informasi pemesanan</h2>
+<p>tampilan untuk detail informasi pemaesanan barang.
+<img src="/assets/image/inventory-management/6.Daftar antrian pesanan barang dari gudang (1).png" alt="preview" />
+bila informasi tidak sesuai atau ada perubahan jumlah barang, maka dilakukan perubahan pemesanan., namun bila barang yang datang sudah sesuai maka pihak pengemasan dapa melakukan konfirmasi.</p>
+
+<h2 id="ubah-informasi-pemesanan">Ubah informasi pemesanan</h2>
+<p>perubahan informasi pemesanan barang dilakukan oleh pihak pengemasan. dapat disesuaikan bedasarkan invoice dari marketing atau yang lainnya.
+<img src="/assets/image/inventory-management/7.Buat pengembalian barang ke gudang.png" alt="preview" />
+bila barang dari pemesanan kurang, penulisan yang benar yaitu di dahului  tanda (-) minus/negatif, yang artinya pihak pengemasan memerlukan barang lagi, namun <br />
+bila barang dari pemesanan jumlahnya lebih dari permintaan, penulisan yang benar yaitu tanpa tanda, yang artinya pihak pengemasan mengembalikan barang kepihak gudang.</p>
+
+</div>
+  </main>
+
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Iyang Agung Supriatna</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="https://wa.me/628986102327"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#29c1aa'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-whatsapp fa-1x"></i>
+    </a><a class="social mx-1"  href="mailto:iyangagungsupriatna@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.facebook.com/i01001.error"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#3b5998'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-facebook fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/ilyanazalun"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.instagram.com/ilyanazalun"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#405de6'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-instagram fa-1x"></i>
+    </a><a class="social mx-1"  href="https://stackoverflow.com/u/12133736"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#f48024'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-stack-overflow fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/i01001_Error"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+  
+</footer>
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+
+</body>
+
+</html>
