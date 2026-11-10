@@ -33,18 +33,5 @@ permalink: /photograph/
   </div> 
 </div>
 
-## Cosplay
-<div class="card-columns">
-  <div class="card border-0 bg-transparent">
-    {% include elements/figure.html image="/assets/image/photograph/cosplay.jpg" caption="The Ocean" %}
-  </div>
-  <div class="card border-0 bg-transparent">
-    {% include elements/figure.html image="/assets/image/photograph/cosplay.jpg" caption="The Ocean" %}
-  </div>
-  <div class="card border-0 bg-transparent">
-    {% include elements/figure.html image="/assets/image/photograph/cosplay.jpg" caption="The Ocean" %}
-  </div>
-</div>
-
 
 {% include photograph/index.html %}
